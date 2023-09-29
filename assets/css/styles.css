@@ -1,6 +1,9 @@
-
 body {
     background-color: #000000;
+}
+
+body::before {
+    opacity: 0.8;
 }
 
 .container-buttons{
@@ -12,7 +15,7 @@ body {
 }
 
 button {
-    background-color: #79cb15;
+    background-color: #09436e;
     border: none;
     border-radius: 5px;
     color: #000000;
@@ -29,6 +32,7 @@ button:hover {
 main {
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 ul {
@@ -36,12 +40,15 @@ ul {
     display: grid;
     grid-template-columns:200px 200px 200px ;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
+
 li {
-    border: 2px solid #8133ff;
+    border: 2px solid #053f6b;
     border-radius: 5px;
     padding: 5px;
+    font-weight: bold;
 }
 
 img {
@@ -54,6 +61,7 @@ p {
 }
 
 .item-price {
+    font-size: 20px;
     font-weight: bold;
-    color: #79cb15;
+    color: #053f6b;
 }
