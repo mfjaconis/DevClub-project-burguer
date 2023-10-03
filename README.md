@@ -2,7 +2,7 @@
 
 Bem-vindo ao projeto DevClub Burguer! Este é um projeto de website de lanchonete desenvolvido para praticar JavaScrip(FOREACH, MAP, REDUCE e FILTER). Explore o cardápio e desfrute de deliciosos hambúrgueres!
 
-![Imagem de amostra do DevClub Burguer](https://mfjaconis.github.io/DevClub-project-burguer/assets/img/xbacon.png){ width=300px height=200px }
+![Imagem de amostra do DevClub Burguer](https://mfjaconis.github.io/DevClub-project-burguer/assets/img/xbacon.png { width=300px height=200px })
 
 ## Como usar
 
