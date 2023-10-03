@@ -12,7 +12,7 @@ function showAll(productsArray) {
      <li>
          <img src="${product.src}">
          <p>${product.name}</p>
-         <p class="item-price">R$ ${(product.price).toFixed(2)}</p>
+         <p class="item-price">R$ ${(product.price).toFixed(2).replace('.', ',')}</p>
      </li>
    `;
   });
@@ -34,10 +34,10 @@ function sumAll() {
   
   list.innerHTML = `  
    <li>
-    <p>O valor total dos itens é de: R$ ${totalValue.toFixed(2)}</p>
+    <p>O valor total dos itens é de: R$ ${totalValue.toFixed(2).replace('.', ',')}</p>
    </li>
    <li>
-    <p>O valor total dos itens com desconto é de: <br> R$ ${(totalValue * 0.9).toFixed(2)}</p>
+    <p>O valor total dos itens com desconto é de: <br> R$ ${(totalValue * 0.9).toFixed(2).replace('.', ',')}</p>
    </li>
 `;
 }
