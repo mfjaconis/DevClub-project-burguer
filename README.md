@@ -6,7 +6,7 @@ Bem-vindo ao projeto DevClub Burguer! Este é um projeto de website de lanchonet
 
 ## Como usar
 
-1. Acesse o projeto em [https://mfjaconis.github.io/DevClub-project-burguer/](https://mfjaconis.github.io/DevClub-project-burguer/).
+1. Acesse o projeto em [https://mfjaconis.github.io/DevClub-project-burguer/]([s.github.io/DevClub-project-burguer/]).
 
 2. Você verá uma interface atraente com o cardápio de hambúrgueres disponíveis.
 
